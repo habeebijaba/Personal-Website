@@ -238,9 +238,9 @@
 
 		   <div class="col-md-6 p-0 pr-2 col-sm-3 col-6 agileits_w3layouts_gallery_grid1 hover14 column">
 			<div class="w3_agile_gallery_effect">
-			   <a href="https://habeebijaba.github.io/Land-Rover/" target="_blank">
+			   <a href="https://habeebijaba.github.io/Apple-Clone-Using-Bootstrap/" target="_blank">
 				  <figure>
-					 <img src="images/logo.png" alt=" " class="img-responsive" />
+					 <img src="images/apple logo.png" style="width:50% ;" alt=" " class="img-responsive pt-5 " />
 				  </figure>
 			   </a>
 			</div>
@@ -292,80 +292,32 @@
 			
 			 <div id="form" class="">
 				<h4 class="mb-4">Get In Touch</h4>
-				<!-- <form  method="post" id="submit-form">
-					<div id="error"></div>
-					<label><i class="fa mr-2 fa-user" aria-hidden="true"></i> Name</label>
-					<input id="name-field" type="text" name="Name" placeholder="Name"  onkeyup="validatename()"  >
-					<div><label for="name-field" id="name-field-error" class="error" style="color: red; " ></label>ty6yyyyyyyyyyyyyyyyyy77777777877</div>
-					<div class="clearfix"></div>
-					
-					<label><i class="fas mr-2 fa-envelope-open" aria-hidden="true"></i>Email</label>
-					<input  id="email-field" type="email" name="Email" placeholder="Email"  onkeyup="validateemail()" >
-					<span id="email-error" style="color: red;" ></span>
-					<div class="clearfix"></div>
-					<label><i class="fas mr-2 fa-phone" aria-hidden="true"></i>Phone</label>
-					<input id="phone-field" type="text" name="Phone" placeholder="Phone"  onkeyup="validatephone()"  >
-					<span id="mobile-error" style="color: red;" ></span>
-					<div class="clearfix"></div>
-					<label><i class="fas mr-2 fa-edit" aria-hidden="true"></i>Message</label>
-					<textarea id="message-field" name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<span id="message-error" style="color: red;" ></span>
-					<input type="submit" value="Submit">
-				</form> -->
-				<!-- safeer code -->
-				<!-- <form  id="submit-form" name="form1" role="form" onsubmit="return validate()" class="php-email-form">
-					<div class="row">
-					  <div class="form-group col-md-6">
-						<label for="name">Name</label>
-						<input type="text" name="Name" class="form-control" id="name" placeholder="Enter Your Name" onkeyup="validateName()" required>
-					  </div>
-					  <div class="form-group col-md-6">
-						<label for="name">Email</label>
-						<input type="email" class="form-control" name="Email" id="email" placeholder="Enter Your Email" onkeyup="validateEmail()" required>
-					  </div>
-					</div>
-					<div class="form-group">
-					  <label for="name">Phone</label>
-					  <input type="text" class="form-control" name="Phone" id="subject"  placeholder="Enter Your Phone" onkeyup="validateSubject()" required>
-					</div>
-					<div class="form-group">
-					  <label for="name"></label>
-					  <textarea class="form-control" name="message" rows="10" id="Message" placeholder="Type Your Message Here..."  onkeyup="validateMessage()" required></textarea>
-					</div> -->
-					<!-- <div class="my-3">
-					  <div class="loading">Loading</div>
-					  <div class="error-message"></div>
-					  <div class="sent-message">Your message has been sent. Thank you!</div>
-					</div> -->
-					<!-- <div class="text-center"><button class="text-white btn-success" onsubmit="contactSubmit()"  type="submit">Send Message</button></div>
-				  </form> -->
+				
 
+				<!-- form -->
 
-				<!-- safeer code ends -->
-
-				<!-- saleel code start -->
-
-				<form  name="google-sheet" class="submit-form php-email-form" action="" role="form" target="_blank" >
+				<form id="submit-form" name="google-sheet" class="submit-form php-email-form" action="" role="form" >
 					<div class="row">
 					  <div class="col-md-6 form-group">
-						<label for="name">Your Name</label>
+						<label for="name">Name</label>
 						<input type="text" name="name" class="form-control" id="contact-name" onkeyup="validateName()" placeholder="Your Name" required>
 						<span id="name-error"></span>
 					  </div>
 					  <div class="col-md-6 form-group mt-3 mt-md-0">
-						<label for="name">Your Email</label>
+						<label for="name">Email</label>
 						<input type="email" class="form-control" name="email" id="contact-email" onkeyup="validateEmail()" placeholder="Your Email" required>
 						<span id="email-error"></span>
 					  </div>
 					</div>
 					<div class="form-group mt-3">
-					  <label for="name">Subject</label>
-					  <input type="text" class="form-control" name="subject" id="contact-subject" onkeyup="validateSubject()" placeholder="Subject" required>
-					  <span id="subject-error"></span>
-					</div>
+						<label for="name">phone</label>
+						<input type="text" class="form-control" name="subject" id="contact-phone" onkeyup="validatePhone()" placeholder="phone" required>
+						<span id="phone-error"></span>
+					  </div>
 					<div class="form-group mt-3">
 					  <label for="name">Message</label>
-					  <textarea class="form-control" name="message" rows="5" placeholder="Message" onkeyup="validateMessage()" required></textarea>
+					  <textarea class="form-control" name="message" rows="5" id="contact-message" placeholder="Message" onkeyup="validateMessage()" required></textarea>
+					  <span id="message-error"></span>
 					</div>
 					
 					<div class="text-center  "><button onsubmit="contactSubmit()" class="btn-success w-100" type="submit" >Submit</button>
@@ -377,11 +329,8 @@
 
 
 
-				<!-- saleel code end -->
-			</div>
-
-			
-			
+				<!-- form end -->
+				</div>	
 
 		</div>
 	</div>
@@ -479,16 +428,21 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!-- form submission -->
 	<script>
-        $("#submit-form").submit((e)=>{
-			
+		
+        $("#submit-form").submit((e)=>{	
             e.preventDefault()
+			console.log(validateMessage())
+			console.log(validateEmail())
+			console.log(validateName())
+			if(validateMessage() && validateEmail() && validateName()){
+
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbxnnT67h5Rm3aINH2zJdXM9qz7nbWo9jan2lg1RgeXE_NYR7j2MO9sKXnnEw7YBaFNW_w/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
-                    window.location.reload()
+                    // window.location.reload()
                     //window.location.href="#form"
                 },
                 error:function (err){
@@ -496,7 +450,10 @@
     
                 }
             })
-        })
+        }else{
+			alert("Data Validation Error")
+		}
+	})
     </script>
 	<!-- form validation -->
 	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
